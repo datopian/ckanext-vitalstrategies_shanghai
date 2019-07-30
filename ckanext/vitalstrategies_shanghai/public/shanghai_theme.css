@@ -1,0 +1,20 @@
+#shanghai-footer {
+    width: 100%;
+    background-color: #eeeeee;
+    margin-top: 1em;
+    padding: 2em 0;
+    position: absolute;
+    left: 0;
+}
+
+#shanghai-footer a {
+    color: black;
+}
+
+#shanghai-footer img {
+  margin: 0 1em;
+}
+
+#shanghai-footer-right {
+  margin-left: 50%;
+}
