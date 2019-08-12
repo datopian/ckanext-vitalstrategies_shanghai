@@ -1,5 +1,6 @@
 #shanghai-footer {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
     background-color: #eeeeee;
     margin-top: 1em;
     padding: 2em 0;
@@ -16,9 +17,10 @@
 }
 
 #shanghai-footer-right {
-  margin-left: 50%;
+  margin-left: 60%;
 }
 
 #shanghai-footer-left {
   margin-left: 20%;
+  float: left;
 }
