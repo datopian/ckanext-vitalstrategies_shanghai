@@ -16,6 +16,9 @@
               <li><a href="{{ api_url }}">{{ _('CKAN API') }}</a></li>
               <li><a href="http://www.ckan.org/">{{ _('CKAN Association') }}</a></li>
               <li><a href="http://www.opendefinition.org/okd/"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}"></a></li>
+              <li>上海浙大网新易得科技发展有限公司</div>
+              <li>地址：上海市静安区江场一路45号5号楼108室</div>
+              <li>电话：021-56635578 &nbsp;&nbsp;|&nbsp;&nbsp; 传真：021-56389169</div>
             {% endblock %}
           </ul>
         {% endblock %}
@@ -27,16 +30,11 @@
         {% block footer_lang %}
           {% snippet "snippets/language_selector.html" %}
         {% endblock %}
+         <a href="http://beian.miit.gov.cn" target="_blank">沪ICP备11019437号-2 </a>
       </div>
     </div>
   </div>
-    <div id="shanghai-footer">
-      <div class="footer-el pull-left" id="shanghai-footer-left"><font color="black">上海浙大网新易得科技发展有限公司</font></div>
-      <div class="footer-el" id="shanghai-footer-right"><a href="http://beian.miit.gov.cn" target="_blank">沪ICP备11019437号-2 </a></div>
-      <div class="footer-el" id="shanghai-footer-left"><font color="black">地址：上海市静安区江场一路45号5号楼108室</font></div>
-      <div class="footer-el" id="shanghai-footer-left"><font color="black">电话：021-56635578 &nbsp;&nbsp;|&nbsp;&nbsp; 传真：021-56389169 </font></div>
-    </div>
-    {% endblock %}
+  {% endblock %}
 
   {% block footer_debug %}
     {% if g.debug %}
